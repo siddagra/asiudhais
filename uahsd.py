@@ -8,6 +8,7 @@ def main(model_id):
         model=model_id,
         model_kwargs={"torch_dtype": torch.bfloat16},
         device="cuda",
+        token="hf_hf_YNYISnYujRhAWbdmNLwLdAuomApxGDdnfY"
     )
 
     messages = [
